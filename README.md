@@ -1,5 +1,7 @@
 # e-commerce
 
+※ 現在開発中ですので、インストールしても動作しません。
+
 e-commerce は、モダンなウェブ技術を使用して構築されたオンラインショッピングプラットフォームです。使いやすいインターフェースと柔軟なカスタマイズ機能により、多様な商品の販売と管理を簡単に行うことができます。
 
 ## インストール
@@ -7,8 +9,8 @@ e-commerce は、モダンなウェブ技術を使用して構築されたオン
 このプロジェクトをローカルで実行するには、次の手順に従ってください：
 
 ```bash
-git clone https://github.com/your-username/e-commerce.git
-cd e-commerce
+git clone https://github.com/commte/commerce.git
+cd commerce
 npm install
 ```
 
@@ -17,7 +19,9 @@ npm install
 アプリケーションを起動するには、以下のコマンドを実行します：
 
 ```bash
-npm run start
+npm install -g pnpm
+pnpm install
+pnpm dev
 ```
 
 これにより、http://localhost:3000 でアプリケーションが起動します。
